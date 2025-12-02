@@ -18,7 +18,7 @@ for i in range(altura - 1):
 for i in range(altura):
     if i == altura -1:
         print((espacio * a) + asterisco + (espacios_dentro * k))
-        a += 1
+        a += 1  
         k = k - 2
     else:
         print((espacio * a) + asterisco + (espacios_dentro * k) + asterisco)
